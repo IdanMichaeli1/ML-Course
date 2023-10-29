@@ -104,4 +104,5 @@ def kmeans_loop(X, k, p, centroids, max_iter=100):
             break
 
         prev_centroids = centroids.copy()
+
     return centroids, classes
