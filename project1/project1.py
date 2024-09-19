@@ -201,7 +201,6 @@ def forward_feature_selection(X_train, y_train, X_val, y_val, best_alpha, iterat
     X_train = apply_bias_trick(X_train)
     X_val = apply_bias_trick(X_val)
 
-    # Add the index of the column of the bias to the selected features
     selected_features = [0]
 
     # Initialize a training data set that will hold the chosen features
